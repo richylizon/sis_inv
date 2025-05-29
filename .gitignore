@@ -1,0 +1,42 @@
+# Laravel
+/vendor
+/node_modules
+/public/hot
+/public/build
+/public/storage
+/storage/*.key
+/storage/pail
+/bootstrap/cache/*.php
+
+# Entorno
+.env
+.env.*
+.auth.json
+
+# PHPUnit / Testing
+.phpunit.result.cache
+/.phpunit.cache
+coverage.xml
+
+# IDEs y herramientas
+/.idea
+/.vscode
+/.phpactor.json
+/.fleet
+/.zed
+
+# Laravel Nova
+/.nova
+
+# Laravel Forge / Homestead
+Homestead.yaml
+Homestead.json
+
+# Logs y archivos de errores
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Laravel Pint / PHP CS Fixer
+.pint.json
+.php-cs-fixer.cache
